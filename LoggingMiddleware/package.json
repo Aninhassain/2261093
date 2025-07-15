@@ -1,0 +1,9 @@
+{
+  "name": "logging-middleware",
+  "version": "1.0.0",
+  "description": "Logging middleware with JWT authentication",
+  "main": "log.js",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+} 
