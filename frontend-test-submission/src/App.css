@@ -1,0 +1,55 @@
+.main-container {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+input {
+  margin: 5px 0;
+  padding: 8px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+}
+
+.results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results li {
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.stat-box {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
